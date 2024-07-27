@@ -20,7 +20,7 @@ class linked_list
                 head = NULL;    
                 tail = NULL;
             }
-};
+
 
 void addNodeEnd(int value)
 {
@@ -87,7 +87,7 @@ void display()
         cur = cur->next;
     }
 }
-
+};
 int main()
 {
     linked_list(test);
